@@ -53,21 +53,6 @@ Ce contrat sert de **référence unique** pour toutes les opérations d’import
 
 ---
 
-## 🏗️ Architecture VBA
-
-| Module / Classe     | Rôle |
-|---------------------|------|
-| `ContratInterface`  | Lecture et validation du contrat d’interface |
-| `GestionTables`     | Création, vérification et manipulation des tables |
-| `ImportCSV`         | Import de fichiers CSV |
-| `ExportCSV`         | Export de tables vers CSV |
-| `ExportSQL`         | Génération des requêtes SQL |
-| `Utilitaires`       | Fonctions génériques (fichiers, chaînes, formats…) |
-
-Chaque module est documenté via des commentaires structurés compatibles avec Doxygen/VBDoc.
-
----
-
 ## 🚀 Démarrage rapide
 
 ### 1. Télécharger le fichier Excel  
