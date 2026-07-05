@@ -93,3 +93,17 @@ Menu → `Exporter SQL` → Un fichier `.sql` est généré.
 ## 🧪 Exemples
 
 ### Table structurée
+
+| ID | Nom | Age |
+| --- | --- | --- |
+| 1 | Dupont | 32 |
+| 2 | Martin | 45 |
+
+
+### SQL généré
+
+INSERT INTO Clients (ID, Nom, Age) VALUES 
+(1, 'Dupont', 32),
+(2, 'Martin', 45);
+
+
