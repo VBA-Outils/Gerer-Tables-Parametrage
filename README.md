@@ -106,4 +106,74 @@ INSERT INTO Clients (ID, Nom, Age) VALUES
 (1, 'Dupont', 32),
 (2, 'Martin', 45);
 
+---
+
+## 📘 Mode d’emploi — Création et utilisation des tables
+
+### 1️⃣ Préparer l’onglet **Contrat d’interface**
+
+L’onglet *Contrat d’interface* constitue le schéma fonctionnel du classeur.  
+Chaque ligne décrit une table ou une colonne.
+
+Renseigner pour chaque entrée :
+
+- **Nom de la table**
+- **Nom de la colonne**
+- **Format / Type de données** (Texte, Entier, Date, etc.)
+- **Clé primaire** (si applicable)
+- **Références** (liens vers d’autres tables)
+
+Cet onglet sert de base à la génération automatique des tables.
+
+---
+
+### 2️⃣ Générer les tables
+
+Une fois le contrat d’interface complété :
+
+1. Cliquer sur le bouton **Créer tables**.
+2. Le programme :
+   - crée un **onglet par table** définie ;
+   - insère un **tableau structuré** avec les colonnes du contrat ;
+   - ajoute automatiquement sur la première ligne :
+     - **Menu**
+     - **Exporter CSV**
+     - **Importer CSV**
+     - **Exporter SQL**
+   - inscrit le **nom de la table** en haut de l’onglet.
+
+Les tables sont immédiatement opérationnelles pour la saisie, l’import/export et la génération SQL.
+
+---
+
+### 3️⃣ Définir les relations entre tables
+
+Après la création des tables :
+
+- La colonne **Table référencée** du contrat d’interface propose une **liste déroulante** contenant toutes les tables du classeur.
+- Lorsque l’utilisateur sélectionne une table :
+  - la colonne **Clé primaire référencée** se remplit automatiquement avec une **liste déroulante contenant les clés primaires de la table choisie**.
+
+Ce mécanisme permet de définir facilement :
+
+- des **relations 1‑N** (clé primaire → clé étrangère),
+- des **références croisées**,
+- des **contraintes de cohérence** entre tables.
+
+Le contrat d’interface devient ainsi un véritable *catalogue de métadonnées* pilotant la structure du classeur.
+
+---
+
+## 🧩 Résultat : un système de tables piloté par métadonnées
+
+Grâce à ce fonctionnement :
+
+- la structure des tables est définie **une seule fois** dans le contrat d’interface ;
+- les onglets sont générés automatiquement et restent synchronisés ;
+- les relations entre tables sont gérées via des listes déroulantes dynamiques ;
+- l’utilisateur dispose d’un environnement cohérent pour :
+  - saisir des données,
+  - importer/exporter en CSV,
+  - générer des requêtes SQL,
+  - maintenir des relations entre tables.
 
