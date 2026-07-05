@@ -10,6 +10,20 @@ Ce projet vise à offrir une manière fiable, cohérente et automatisée de mani
 
 ---
 
+## 📑 Table des matières
+
+- [Présentation](#présentation)
+- [Installation](#installation)
+- [Fonctionnalités](#fonctionnalités)
+- [Méthodologie](#méthodologie)
+- [Mode d’emploi](#-mode-demploi--création-et-utilisation-des-tables)
+  - [1️⃣ Préparer le contrat d’interface](#1️⃣-préparer-longlet-contrat-dinterface)
+  - [2️⃣ Générer les tables](#2️⃣-générer-les-tables)
+  - [3️⃣ Définir les relations](#3️⃣-définir-les-relations-entre-tables)
+- [Licence](#licence)
+
+---
+
 ## 🧩 Fonctionnalités principales
 
 ### ✔️ Gestion des tables structurées
