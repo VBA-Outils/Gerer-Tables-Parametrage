@@ -8,6 +8,8 @@ GererTables est un outil Excel/VBA permettant de gérer des **tables structurée
 
 Ce projet vise à offrir une manière fiable, cohérente et automatisée de manipuler des données tabulaires dans Excel.
 
+Ce fichier peut être utilisé pour gérer des tables de paramétrages d'un projet ave la possibilité d'importer depuis des fichiers CSV le contenu des tables, de les exporter, de comparer un fichier CSV avec le contenu d'une table du fichier Excel.
+
 ---
 
 ## 🧩 Fonctionnalités principales
