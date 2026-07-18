@@ -4,7 +4,7 @@
 ![Excel](https://img.shields.io/badge/Excel-Tables%20structurées-green)
 ![Licence](https://img.shields.io/badge/Licence-MIT-yellow)
 
-GererTables est un outil Excel/VBA permettant de gérer des **tables structurées** réparties par onglet, avec un **contrat d’interface centralisé**, et des fonctions d’**import/export CSV** ainsi que la génération de **requêtes SQL `INSERT INTO`**.
+Gerer-Tables-Parametrage est un outil Excel/VBA permettant de gérer des **tables structurées** réparties par onglet, avec un **contrat d’interface centralisé**, et des fonctions d’**import/export CSV** ainsi que la génération de **requêtes SQL `INSERT INTO`**.
 
 Ce projet vise à offrir une manière fiable, cohérente et automatisée de manipuler des données tabulaires dans Excel.
 
