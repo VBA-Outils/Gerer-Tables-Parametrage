@@ -14,29 +14,31 @@ Ce fichier peut être utilisé pour gérer des tables de paramétrages d'un proj
 
 ## 🧩 Fonctionnalités principales
 
-### ✔️ Gestion des tables structurées
-- Création automatique des tables selon le contrat d’interface  
-- Vérification des colonnes et des formats  
-- Ajustement automatique des largeurs  
-- Validation des données
+### ✔️ Gestion des tables automatisées
+- Création automatique des tables selon un contrat d’interface
+- Vérification des colonnes et des formats
 
-### ✔️ Import CSV → Table Excel
-- Lecture d’un fichier CSV  
-- Vérification de la conformité avec le contrat  
-- Insertion des données dans la table cible  
+### ✔️ Importer un fichier CSV dans une table Excel
+- Lecture d’un fichier CSV
+- Vérification de la conformité avec le contrat
+- Insertion des données dans la table cible
 - Rapport d’erreurs (colonnes manquantes, formats incorrects)
 
-### ✔️ Export Table Excel → CSV
-- Export propre et conforme  
-- Gestion des séparateurs  
-- Encodage UTF‑8 ou ANSI  
+### ✔️ Exporter une table vers un fichier CSV
+- Export propre et conforme au contrat d'interface
+- Gestion des séparateurs (point-virgule, tabulation, etc), des délimiteurs de texte, de l'encodage, des délimiteurs de lignes (CR/LF) 
 - Option d’inclure ou non les en‑têtes
 
-### ✔️ Export Table Excel → SQL `INSERT INTO`
-- Génération automatique des requêtes  
-- Échappement des valeurs  
-- Gestion des types (texte, numérique, date)  
+### ✔️ Exporter une table Excel sous forme de requête SQL "INSERT INTO"
+- Génération automatique des requêtes
+- Échappement des valeurs
+- Gestion des types (texte, numérique, date)
 - Export dans un fichier `.sql`
+
+### ✔️ Comparer une table entre le fichier Excel et un fichier CSV
+- Charger un fichier CSV dans un nouveau classeur
+- Comparer le contenu des tables
+- Rapport de comparaison (lignes en différence, écarts des valeurs dans une colonne)
 
 ---
 
