@@ -1,4 +1,4 @@
-# 📊 GererTables — Gestion avancée de tables dans des tableaux structurés Excel
+# 📊 Gerer des Tables de paramétrage — Gestion avancée de tables dans des tableaux structurés Excel
 
 ![Langage](https://img.shields.io/badge/langage-VBA-blue)
 ![Excel](https://img.shields.io/badge/Excel-Tables%20structurées-green)
